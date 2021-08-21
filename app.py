@@ -31,26 +31,27 @@ def bot():
     
 
     if 'hi' in incoming_msg:
-    	reply = (f"Hi {user_profile}, I am Vote263 Bot :). Let me help you with Zimbabwe Elections 2023 Information. \n"
-                    "Type a word or number from the menu to get more infomation \n"
+    	reply = (f"Hello {user_profile}, I am Vote263 Bot :). I am here to help you with Zimbabwe's hot Harmonised Elections 2023 Information. \n"
                     "\n"
-                    "*>> why:* Read on *WHY* you must vote.\n"
+                    "Type a word or number from the menu to get more infomation. For example 'Why' or '2' \n"
+                    "\n"
+                    "*>> Why:* Read on *WHY* you must vote.\n"
                     "\n"
                     "*>> 1 :* How to register to vote.\n"
                     "\n"
                     "*>> 2 :* Where to Register to Vote.\n"
                     "\n"
-                    "*>> 3 :* Check Your Voter On BVR Website. \n"
+                    "*>> 3 :* Check your registration on BVR website. \n"
                     "\n"
                     "*>> 4 :* Frequently Asked Questions. \n"
                     "\n"
                     "*>> 5 :* Downloads. \n"
                     "\n"
-                    "*>> 6:* Wiki. Get information from Wikipedia\n "
+                    "*>> 6:* Wiki. Get information from Wikipedia. \n "
                     "\n"
-                    "*>> 7:* MDC Alliance.\n "
+                    "*>> 7:* MDC Alliance WhatsApp portal.\n "
                     "\n"
-                    "*>> News :* Type news to get the global news.\n"
+                    "*>> News :* Get the Global News.\n"
                     "\n"
                     "*>> Corruption :* Resources on Corruption in Zimbabwe & Africa.\n"
                     "\n"
@@ -69,24 +70,30 @@ def bot():
                     "\n"
                     "*>>* Voting represents the beginning; everything else in our democracy follows the right to vote. Participation is more than just a value. It is a foundational virtue of our democracy.\n"
                     "\n"
-                    "Follow this link for more: https://kubatana.net/2020/11/19/the-importance-of-voter-registration-to-the-youth/"
+                    "Follow this link for more: https://kubatana.net/2020/11/19/the-importance-of-voter-registration-to-the-youth/ \n"
+                    "\n"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded=True
 
     if incoming_msg == '5':
-    	reply = (f"Download import files about Elections. \n"
+    	reply = (f" *Download important files.* \n"
                     "\n"
-                    "*>> 2018 Harmonised Election Report.* Click link to Download. https://zec.org.zw/download?filename=AnnexureH-2018HarmonisedElectionReport.pdf \n"
+                    "*>> 2018 Harmonised Election Report.* \n Click link to Download. \n https://drive.google.com/file/d/1G8soxOjsy90Kqz1gWLK_HSuHVzUHCbrF/view?usp=sharing \n"
                     " \n "
-                    " *>> The Curse Of Corruption In Zimbabwe - Thabani Nyoni - University of Zimbabwe.* https://drive.google.com/file/d/1qv9KvmPz-yUQgN3iIygfbT0zN2DPx6D9/view?usp=sharing \n "
+                    "*>> The Curse Of Corruption In Zimbabwe - Thabani Nyoni - University of Zimbabwe.* \n Click link to Download. \n https://drive.google.com/file/d/1qv9KvmPz-yUQgN3iIygfbT0zN2DPx6D9/view?usp=sharing \n "
+                    "\n"
+                    "*>> Shadows and Shell Games - Uncovering an Offshore Business Empire in Zimbabwe* \n https://drive.google.com/file/d/1KZ9C_pBRanZ87gFoTaEJcfM52qGhYXdV/view?usp=sharing \n "
+                    "\n"
+                    "*>> ZEC Strategic Plan 2019-2024* \n https://drive.google.com/file/d/1VZrbxSKnqVenpUCgswrTktzeebXJdS-n/view?usp=sharing \n"
                     "\n")
     	msg.body(reply)
     	responded=True
 
 
     elif incoming_msg == '2':
-        reply = (f"{user_profile}, here is the Province lists. Type province initials eg MW to get province addresses. \n"
+        reply = (f"{user_profile}, here is the provinces list. Type province initials eg BM to get the nearest addresse to register to vote. \n"
                     "\n"
                     "*>> BM :* Bulawayo Metropolitan. \n "
                     "\n"
@@ -109,18 +116,18 @@ def bot():
                     "*>> MN :* Matabeleland South.\n"
 
                     "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded=True
 
     if  incoming_msg == '3':
         # return a cat pic
-        reply = (f"Click on this link to find out more. Make sure you have your ID with you. \n"
+        reply = (f"Click on the link below to find out if you are registered. Make sure you have your ID Number with you. \n"
                     "\n"  
                     f"https://bvrinspection.zec.org.zw/ \n"
                      "\n"
-                    "**>> Hi :* Main Menu"                
+                    "*>> Hi :* Main Menu"                
                     "\n")
         msg.body(reply)
         responded = True
@@ -133,7 +140,7 @@ def bot():
                     "\n"
                     "*>> Bulawayo :* 18 Rylanders Court, Windsor Park, Complex,16th Avenue, Famona, Bulawayo.\n"                 
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -146,10 +153,10 @@ def bot():
                     "\n"
                     "*>> Harare :* Rememberance Complex, No. 2, Rememberence Drive, Mbare, Harare.\n"
                     "\n"
-                    "*>> Chitungwiza :* Seke Teachers’ College, Stand No. 16120,Mangwende Drive, Chitungwiza.\n"
+                    "*>> Chitungwiza :* Seke Teachers’ College, Stand No. 16120, Mangwende Drive, Chitungwiza.\n"
                     
  					 "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     
                     "\n")
         msg.body(reply)
@@ -175,7 +182,7 @@ def bot():
                     "\n"
                     "*>> Nyanga :* District Administrator’s Complex, Nyanga.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                
                     "\n")
         msg.body(reply)
@@ -203,7 +210,7 @@ def bot():
                     "\n"
                     "*>>Shamva :* Stand No. 203,Main Street, Shamva.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*]*>> Hi :* Main Menu"
                     
                     "\n")
         msg.body(reply)
@@ -224,7 +231,7 @@ def bot():
                     "\n"
                     "*>> Mudzi :*  Government Complex, Kotwa Growth Point, Mudzi.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -235,7 +242,7 @@ def bot():
                     "\n"
                     "*>> Chinhoyi :* 8 Robson Manyika Drive, Chinhoyi.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -246,7 +253,7 @@ def bot():
                     "\n"
                     "*>> Masvingo :* 10 Hellet Street, Masvingo.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -257,7 +264,7 @@ def bot():
                     "\n"
                     "*>> Gweru :* 10th Street, Ground Floor, Government Complex, Gweru.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -268,7 +275,7 @@ def bot():
                     "\n"
                     "*>> Bulawayo :* 10-12 Centenary Court, Windsor, Park Building 16th Avenue, Famona, Bulawayo.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -280,48 +287,33 @@ def bot():
                     "\n"
                     "*>> Gwanda :* 1194 Bigben Road, Jahunda, Gwanda.\n"
                      "\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
 
     if  incoming_msg == '4':
-        reply = (f"Frequently Asked Questions. \n"
+        reply = (f" *Zimbabwe Electoral Commission - Frequently Asked Questions.* \n"
                     "\n"
-                    "*>> 1.  Will political parties have access to the voters’ roll?* \n"
+                    "*1. On Election Day will the BVR machine be there to verify a voter's finger prints?* \n"
                     "\n"
-					"Answer:  Yes. The electronic version of the voters’ roll will be available on Nomination Court day. It will be available to all contesting candidates free of charge. Any other person wishing to have a copy will be given upon paying a nominal fee.\n"
+                    "Answer: On polling day the BVR machine will not be there. The Commission will make use of a person’s identity document and the picture taken during voter registration. Polling Officers will not inspect a person’s finger prints.\n"
+                    "\n"
 					"\n"
-					"The fee for the electronic copies of the voters’ roll will be:\n"
-					"\n"
-					 "   National voters’ roll - $20\n"
-					    "\n"
-					  "  Constituency voters roll - $10\n"
-					    "\n"
-					   " Ward voters’ roll - $2\n"
-					    "\n"
-					    "Polling station voters’ roll - $1\n"
-					    "\n"
-					   " Hard copies - 10 cents per page\n"
-					"\n"
+                    "*2. May we be given a chance to cast our votes through postal voting since the majority of us will be posted elsewhere as polling officers?* \n"
+                    "\n"
+                    "*Answer:* Section 72(a) of the Electoral Act allows electoral officers deployed outside their areas of voting to exercise their right to vote by post. However, ZEC does not encourage the deployment of the election officers away from their areas of registration. All efforts will be made to try and deploy polling officers to where they can vote. \n"
+                    "\n"
+                    "*3. Can I vote anywhere in my ward?* \n"
+                    "\n"
+                    "*Answer:* This year’s elections are polling station based as such one’s name appears on a single polling station. This makes it impossible for a person to cast their vote at any other polling station besides the one allocated during registration to vote. \n"
+                    "\n"
+                    "*4. How do blind people vote?* \n"
+                    "\n"
+                    "Answer: They will be assisted by a person of their own choice who should be 18 years and above.\n"
+                    "\n"
 
-					"*2. May we be given a chance to cast our votes through postal voting since the majority of us will be posted elsewhere as polling officers?* \n"
-					"\n"
-					"Answer:  Section 72(a) of the Electoral Act allows electoral officers deployed outside their areas of voting to exercise their right to vote by post. However, ZEC does not encourage the deployment of the election officers away from their areas of registration. All efforts will be made to try and deploy polling officers to where they can vote. \n"
-					"\n"
-					"*3. Can I vote anywhere in my ward?* \n"
-					"\n"
-					"Answer:  This year’s elections are polling station based as such one’s name appears on a single polling station. This makes it impossible for a person to cast their vote at any other polling station besides the one allocated during registration to vote. \n"
-					"\n"
-					"*4. On Election Day will the BVR machine be there to verify a voter's finger prints? * \n"
-					"\n"
-					"Answer:  On polling day the BVR machine will not be there. The Commission will make use of a person’s identity document and the picture taken during voter registration. Polling Officers will not inspect a person’s finger prints.\n"
-					"\n"
-					"*5. How do blind people vote? * \n"
-					"\n"
-					"Answer:  They will be assisted by a person of their own choice who should be 18 years and above.\n"
-					"\n"
-                    "**>> Hi :* Main Menu"
+                    "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
@@ -329,40 +321,33 @@ def bot():
 
     if '1' in incoming_msg:
         # return a quote
-        quote = ("*How to register.* \n"
+        quote = ("*How to register vote in Zimbabwe 2023 Harmonised Elections.* \n"
 "\n"
-        	"*Documents required for: -*\n"
+        	"*Documents required for:* \n"
 "\n"
-" *Registration* \n"
+" *1. Registration* \n"
 "\n"
- "    National Identity Card (metal, plastic or waiting pass with holder’s picture) or \n"
-  "   Valid Zimbabwean passport and \n"
-   "  Proof of residence (For those who cannot produce proof of residence, anaffidavit is available at the Registration)\n"
+ " *>>* National Identity Card (metal, plastic or waiting pass with holder’s picture) or Valid Zimbabwean passport  \n"
+"  *>>* Proof of residence (For those who cannot produce proof of residence, anaffidavit is available at the Registration)\n"
 "\n"
-" *Inspection* \n"
+" *2. Inspection* \n"
 "\n"
- "    National Identity Card (metal, plastic or waiting pass with holder’s picture) or\n"
-  "   Valid Zimbabwean passport\n"
-   "   Proof of residence (For those who cannot produce proof of residence, an affidavit is available at the Registration)\n"
+ " *>>* National Identity Card (metal, plastic or waiting pass with holder’s picture) or Valid Zimbabwean passport\n"
+"  *>>* Proof of residence (For those who cannot produce proof of residence, an affidavit is available at the Registration)\n"
 "\n"
-" *Transfer* \n"
+" *3. Transfer* \n"
 "\n"
- "    National Identity Card (metal, plastic or waiting pass with holder’s picture) or\n"
-  "   Valid Zimbabwean passport and\n"
-   "  Proof of residence or affidavit\n"
+" *>>* National Identity Card (metal, plastic or waiting pass with holder’s picture) or Valid Zimbabwean passport \n"
+"*>>* Proof of residence or affidavit\n"
 "\n"
 "NB ZEC will advise the public when registration resumes. The Commission is currently waiting for the alignment of the electoral Act to the Constitution. Any queries can be directed to the Zimbabwe Electoral Commission provincial or district offices located in each respective province or district. \n"
 "\n"  
-"**>> Hi :* Main Menu"
+"*>> Hi :* Main Menu"
  "\n"
                     
                     )   
         msg.body(quote)
         responded = True
-
-    
-
-
 
     if incoming_msg == '7':
         html_page = myRequest(base_url + '/membership-plans/')
