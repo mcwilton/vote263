@@ -93,7 +93,9 @@ def bot():
 
 
     elif incoming_msg == '2':
-        reply = (f"{user_profile}, here is the provinces list. Type province initials eg BM to get the nearest addresse to register to vote. \n"
+        reply = (f"{user_profile}, here is the list of provinces. Type province initials eg BM to get the nearest addresse to register to vote. \n"
+                    "\n"
+                    "*>> Voter registration centres are open from Monday to Friday from 0800hrs to 1500hrs. If you are 18 years and above bring your ID and proof of residence to register to vote. \n"
                     "\n"
                     "*>> BM :* Bulawayo Metropolitan. \n "
                     "\n"
@@ -170,9 +172,9 @@ def bot():
                     "\n"
                     "*>> Buhera :* Buhera Rural District Council Offices, Murambinda, Buhera.\n"
                     "\n"
-                    "*>>Chipinge :* New Government Complex, Block B 2nd floor, Chipinge.\n"
+                    "*>> Chipinge :* New Government Complex, Block B 2nd floor, Chipinge.\n"
                     "\n"
-                    "*>>Makoni :* District Administrator’s Complex, Chingaira Building, Rusape.\n"
+                    "*>> Makoni :* District Administrator’s Complex, Chingaira Building, Rusape.\n"
                     "\n"
                     "*>> Mutare :* District Administrator’s Complex, 43 Tembwe Street, Mutare.\n"
                     "\n"
@@ -231,6 +233,16 @@ def bot():
                     "\n"
                     "*>> Mudzi :*  Government Complex, Kotwa Growth Point, Mudzi.\n"
                      "\n"
+                    "*>> Murehwa :*  Murewa Rural District Council Offices, Murewa Growth Point, Murewa .\n"
+                     "\n"
+                    "*>> Mutoko :*  Mutoko District Development Fund Complex, Mutoko.\n"
+                     "\n"
+                    "*>> Seke :*  District Administrator’s Complex, Cnr Mharapara/Mangwende Drive, Chitungwiza.\n"
+                    "\n"
+                    "*>> Uzumba Maramba Pfungwe :*  Mutawata Government Complex, Mutawatawa.\n"
+                    "\n"
+                    "*>> Hwedza :*  District Administrator’s Complex,Wedza Growth Point, Wedza.\n"
+                    "\n"
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -238,10 +250,28 @@ def bot():
  
     if  incoming_msg == 'mw':
         # return a cat pic
-        reply = (f"*Here are the voting places in Mashonaland West. *\n"
+        reply = (f"*Here are the voting places in Mashonaland West.* \n"
                     "\n"
                     "*>> Chinhoyi :* 8 Robson Manyika Drive, Chinhoyi.\n"
-                     "\n"
+                    "\n"
+                    "*>> Chegutu :* Chegutu Municipality,Queens Street, Chegutu Civic Centre, Chegutu.\n"
+                    "\n"
+                    "*>> Hurungwe:* Hurungwe Rural District Council Offices, 262 Chikangwe Road, Karoi.\n"
+                    "\n"
+                    "*>> Kariba :* Public Works Kariba Depot, Kariba.\n"
+                    "\n"
+                    "*>> Makonde :* Public Works Department,Makonde Depot, Chinhoyi.\n"
+                    "\n"
+                    "*>> Mhondoro-Ngezi :* PSanyati Rural District Council Offices, 8 Warwick Road, Kadoma.\n"
+                    "\n"
+                    "*>> Makonde :* Sanyati Rural District Council Offices, 8 Warwick Road, Kadoma.\n"
+                    "\n"
+                    "*>> Sanyati :* Public Works Department,Makonde Depot, Chinhoyi.\n"
+                    "\n"
+                    "*>> Zvimba :* PMurombedzi Government Complex, Murombedzi.\n"
+                   
+                    "\n"
+                     
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -249,10 +279,26 @@ def bot():
 
     if  incoming_msg == 'mo':
         # return a cat pic
-        reply = (f"Here are the voting places in Masvingo. \n"
+        reply = (f" *Here are the voting places in Masvingo.* \n"
                     "\n"
                     "*>> Masvingo :* 10 Hellet Street, Masvingo.\n"
                      "\n"
+                    "*>> Bikita :* Institute of Training and Development, Nyika Growth Point, Bikita.\n"
+                     "\n"
+                    "*>> Chiredzi :* Stand No. A80A, Cnr Crocodile Street/Msasa Street, District Development Fund Workshop. Chiredzi.\n"
+                     "\n"
+                    "*>> Chivi :* District Administrator’s Complex, Chivi Growth Point, Chivi .\n"
+                    "\n"
+                    "*>> Gutu :* Gutu Old Post Office, Cnr Harare Road/Chatsworth Road, Gutu Growth Point, Gutu.\n"
+                     "\n"
+                    "*>> Masvingo :* District Administrator’s Complex, Cnr Leopold Takawira Street/Hughes Street, Masvingo.\n"
+                     "\n"
+                    "*>> Mwenezi :* Big Six Complex, Rutenga Growth Point, Mwenezi.\n"
+                     "\n"
+                    "*>> Zaka :* District Administrator’s Complex, Zaka.\n"
+                     "\n"
+                    
+                     
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -260,10 +306,26 @@ def bot():
 
     if  incoming_msg == 'md':
         # return a cat pic
-        reply = (f"Here are the voting places in Midlands. \n"
+        reply = (f" *Here are the voting places in Midlands.* \n"
                     "\n"
-                    "*>> Gweru :* 10th Street, Ground Floor, Government Complex, Gweru.\n"
-                     "\n"
+                    "*>> Gweru :* 10th Street, Ground Floor, Government Complex, Gweru. \n"
+                    "\n"
+                    "*>> Chirumanzu:* District Administrator’s Complex, Opposite Mvuma Tel-One Office, Mvuma.\n"
+                    "\n"
+                    "*>> Gokwe North :* Government Complex, N0. 57, Gokwe North.\n"
+                    "\n"
+                    "*>> Gokwe South :* Government Complex, No. 103,Gokwe South.\n"
+                    "\n"
+                    "*>> Gweru :* Old Prison Complex, Office No. 10, Main Street,Gweru. \n"
+                    "\n"
+                    "*>> Kwekwe :* Social Welfare Offices, Cnr 2nd Avenue/4th Street, Kwekwe. \n"
+                    "\n"
+                    "*>> Mberengwa :* Ministry of Education Complex, Office No. 3, Mberengwa. \n"
+                    "\n"
+                    "*>> Shurugwi :* Makusha Hall, Peak Road, Adjacent ZIMASCO, Main Offices, Shurugwi. \n"
+                    "\n"
+                    "*>> Zvishavane :* New Government Complex, Zvishavane. \n"
+                    "\n"
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -271,10 +333,25 @@ def bot():
 
     if  incoming_msg == 'mn':
         # return a cat pic
-        reply = (f"Here are the voting places in Matabeleland North. \n"
+        reply = (f" *Here are the voting places in Matabeleland North.* \n"
                     "\n"
                     "*>> Bulawayo :* 10-12 Centenary Court, Windsor, Park Building 16th Avenue, Famona, Bulawayo.\n"
+                    "\n"
+                    "*>> Binga :* Binga Rural District Council Offices, Binga.\n"
                      "\n"
+                    "*>> Bubi :* Stand No. 2/1984, Bubi Rural District Council Houses, Bubi.\n"
+                     "\n" 
+                    "*>> Hwange :* Thomas Coulter Annex School, Thomas Coulter Road, Hwange.\n"
+                     "\n"
+                    "*>> Lupane :* Stand No. 246, Multipurpose Hall, Kusile Rural District Council Offices, Lupane.\n"
+                     "\n" 
+                    "*>> Nkayi :* Nkayi Rural District Office, Nkayi.\n"
+                    "\n"
+                    "*>> Tsholotsho:* District Development Fund Training Centre, Tsholotsho.  \n"
+                    "\n"
+                    "*>> Umguza :* 17 Rhylanders Court, Windsor Park Complex,16th Avenue, Famona, Bulawayo. \n"
+                    "\n"
+
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -286,7 +363,22 @@ def bot():
         reply = (f"Here are the voting places in Matabeleland South. \n"
                     "\n"
                     "*>> Gwanda :* 1194 Bigben Road, Jahunda, Gwanda.\n"
-                     "\n"
+                    "\n"
+                    "*>> Beitbridge :* Office No. 5, Old Boarder Post, Beitbridge .\n"
+                    "\n"
+                    "*>> Bililima :* Stand No. 140, Hebron, Plumtree.\n"
+                    "\n"
+                    "*>> Gwanda :* Office No. 10, Shashe Building, Cnr Lawley Street /6th Avenue, Gwanda.\n"
+                    "\n"
+                    "*>> Mangwe :* tand No. 140, Peter Street, Hebron,Plumtree  .\n"
+                    "\n"
+                    "*>> Matobo :* District Administrator’s Offices, Bulawayo-Mapisa Road, Kezi.\n"
+                    "\n"
+                    "*>> Insiza:* District Administrator’s Offices, Filabusi.\n"
+                    "\n"
+                    "*>> Umzigwane :* Umzingwane Rural District Council Offices, Umzingwane.  \n"
+                    "\n"
+                    
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -456,8 +548,6 @@ def bot():
                     "\n")
         msg.body(reply)
         responded = True
-
-    
 
     if incoming_msg == 'news':
         r = requests.get('https://newsapi.org/v2/everything?q=politics&apiKey=0b38960d9e474d74a228b66e214eb682')
