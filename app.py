@@ -28,30 +28,29 @@ def bot():
     user_profile = request.values['ProfileName']
 
     base_url = 'https://www.mdcallianceparty.org'
-    
-
+   
     if 'hi' in incoming_msg:
-    	reply = (f"Hello {user_profile}, I am Vote263 Bot :). I am here to help you with Zimbabwe's hot Harmonised Elections 2023 Information. \n"
+    	reply = (f"Hello {user_profile}, I am Vote263 Bot :). I am here to help you with Zimbabwe's 2023 Harmonised Elections Information. \n"
                     "\n"
-                    "Type a word or number from the menu to get more infomation. For example 'Why' or '2' \n"
+                    "Type a word or number from the menu to get more infomation. For example *'Why'* or *'2'* \n"
                     "\n"
-                    "*>> Why:* Read on *WHY* you must vote.\n"
+                    "*>> Why:* Read on *WHY* you must *VOTE*.\n"
                     "\n"
-                    "*>> 1 :* How to register to vote.\n"
+                    "*>> 1 :* *HOW* to register to *VOTE*.\n"
                     "\n"
-                    "*>> 2 :* Where to Register to Vote.\n"
+                    "*>> 2 :* *WHERE* to Register to *VOTE*.\n"
                     "\n"
-                    "*>> 3 :* Check your registration on BVR website. \n"
+                    "*>> 3 :* Check your *VOTER REGISTRATION* on BVR website. \n"
                     "\n"
-                    "*>> 4 :* Frequently Asked Questions. \n"
+                    "*>> 4 :* ZEC Frequently Asked Questions. \n"
                     "\n"
-                    "*>> 5 :* Downloads. \n"
+                    "*>> 5 :* Various Downloads. \n"
                     "\n"
                     "*>> 6:* Wiki. Get information from Wikipedia. \n "
                     "\n"
-                    "*>> 7:* MDC Alliance WhatsApp portal.\n "
+                    "*>> 7:* MDC Alliance access portal. \n "
                     "\n"
-                    "*>> News :* Get the Global News.\n"
+                    "*>> News :* Get the Global News. \n"
                     "\n"
                     "*>> Corruption :* Resources on Corruption in Zimbabwe & Africa.\n"
                     "\n"
@@ -61,7 +60,6 @@ def bot():
                     "\n")
     	msg.body(reply)
     	responded=True
-
 
     if incoming_msg == 'why':
         reply = (f"Why it is important to register to vote. From Kubata.net Website. \n"
@@ -78,19 +76,22 @@ def bot():
         responded=True
 
     if incoming_msg == '5':
-    	reply = (f" *Download important files.* \n"
+    	reply = (f" *Download various important files.* \n"
                     "\n"
                     "*>> 2018 Harmonised Election Report.* \n Click link to Download. \n https://drive.google.com/file/d/1G8soxOjsy90Kqz1gWLK_HSuHVzUHCbrF/view?usp=sharing \n"
                     " \n "
                     "*>> The Curse Of Corruption In Zimbabwe - Thabani Nyoni - University of Zimbabwe.* \n Click link to Download. \n https://drive.google.com/file/d/1qv9KvmPz-yUQgN3iIygfbT0zN2DPx6D9/view?usp=sharing \n "
                     "\n"
-                    "*>> Shadows and Shell Games - Uncovering an Offshore Business Empire in Zimbabwe* \n https://drive.google.com/file/d/1KZ9C_pBRanZ87gFoTaEJcfM52qGhYXdV/view?usp=sharing \n "
+                    "*>> Shadows and Shell Games - Uncovering an Offshore Business Empire in Zimbabwe* \n Click link to Download. \nhttps://drive.google.com/file/d/1KZ9C_pBRanZ87gFoTaEJcfM52qGhYXdV/view?usp=sharing \n "
                     "\n"
-                    "*>> ZEC Strategic Plan 2019-2024* \n https://drive.google.com/file/d/1VZrbxSKnqVenpUCgswrTktzeebXJdS-n/view?usp=sharing \n"
+                    "*>> ZEC Strategic Plan 2019-2024* \n Click link to Download. \n https://drive.google.com/file/d/1VZrbxSKnqVenpUCgswrTktzeebXJdS-n/view?usp=sharing \n"
+                    "\n"
+                    "*>> The Electoral Act [Chapter 2:13] (Act No. 25 of 2004) came into operation on 1st February, 2005* \n Click link to Download. \n https://drive.google.com/file/d/1_aVcj5QXISqImfdlktMWRsZ5859pku-G/view?usp=sharing \n"
+                    "\n"
+                    
                     "\n")
     	msg.body(reply)
     	responded=True
-
 
     elif incoming_msg == '2':
         reply = (f"{user_profile}, here is the list of provinces. Type province initials eg BM to get the nearest addresse to register to vote. \n"
@@ -99,13 +100,13 @@ def bot():
                     "\n"
                     "*>> BM :* Bulawayo Metropolitan. \n "
                     "\n"
-                    "*>> HM :* Harare Metropolitan .\n"
+                    "*>> MN :* Matabeleland South.\n"
                     "\n"
                     "*>> MR :* Manicaland.\n"
                     "\n"
                     "*>> MC :* Mashonaland Central. \n"
                     "\n"
-                    "*>> ME :* Mashonaland East.\n"
+                    "*>> MN :* Matabeleland North.\n"
                     "\n"
                     "*>> MW :* Mashonaland West.\n"
                     "\n"
@@ -113,9 +114,9 @@ def bot():
                     "\n"
                     "*>> MD :* Midlands.\n"
                     "\n"
-                    "*>> MN :* Matabeleland North.\n"
+                    "*>> ME :* Mashonaland East.\n"
                     "\n"
-                    "*>> MN :* Matabeleland South.\n"
+                    "*>> HM :* Harare Metropolitan.\n"
 
                     "\n"
                     "*>> Hi :* Main Menu"
@@ -217,7 +218,6 @@ def bot():
                     "\n")
         msg.body(reply)
         responded = True
-
   
     if  incoming_msg == 'me':
         # return a cat pic
@@ -296,9 +296,7 @@ def bot():
                     "*>> Mwenezi :* Big Six Complex, Rutenga Growth Point, Mwenezi.\n"
                      "\n"
                     "*>> Zaka :* District Administrator’s Complex, Zaka.\n"
-                     "\n"
-                    
-                     
+                     "\n"                
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
@@ -357,7 +355,6 @@ def bot():
         msg.body(reply)
         responded = True
 
-
     if  incoming_msg == 'ms':
         # return a cat pic
         reply = (f"Here are the voting places in Matabeleland South. \n"
@@ -410,7 +407,6 @@ def bot():
         msg.body(reply)
         responded = True
 
-
     if '1' in incoming_msg:
         # return a quote
         quote = ("*How to register vote in Zimbabwe 2023 Harmonised Elections.* \n"
@@ -436,33 +432,33 @@ def bot():
 "\n"  
 "*>> Hi :* Main Menu"
  "\n"
-                    
-                    )   
+                                       )   
         msg.body(quote)
         responded = True
 
     if incoming_msg == '7':
         html_page = myRequest(base_url + '/membership-plans/')
-        reply = (f"{user_profile}, welcome to the MDC Alliance Portal. \n"
+        reply = (f"{user_profile}, welcome to the MDC Alliance WhatsApp access Portal. \n"
                     
                     "\n"
-                    "*>> Web: MDC official Website  \n"
+                    "*>> Web:* MDC Alliance Official Website  \n"
                     "\n"
                     "*>> MDCNews :* MDC Alliance News.\n"
                     "\n"
                     "*>> Donate :* Donate To The MDC Alliance. \n"
                     "\n"
-                    "*>> Subs :* Monthly Subscription.\n"
+                    "*>> Subs :* Pay up your Monthly Subscription.\n"
                     "\n"
-                    "*>> Join :* Become A Member.\n"
+                    "*>> Join :* Become An MDC Alliance Party Member.\n"
                     "\n"
-                    "*>> Contact:* Contacts. \n"
+                    "*>> Volunteer :* Volunteer In The MDC Alliance Party.\n"
+                    "\n"
+                    "*>> Contact:* MDC Alliance Contacts. \n"
                     "\n"
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded=True
-
 
     if  incoming_msg == 'web':
         # return a cat pic
@@ -507,7 +503,6 @@ def bot():
                     "\n")
         msg.body(reply)
         responded = True
-
     
     if  incoming_msg == 'join':
         # return a cat pic
@@ -520,17 +515,18 @@ def bot():
         msg.body(reply)
         responded = True
 
-
     if  incoming_msg == '6':
         # return a cat pic
-        reply = (f"Type Wiki then search word \n"
+        reply = (f" *Wiki will help you to search information on Wikipedia.* \n"
                     "\n"
-                    "For example 'wiki politics' or 'wiki zimbabwe' or 'wiki democracy' or 'wiki corruption' \n"
+                    "Type Wiki then search word. \n"
+                    "\n"
+                    "For example *'wiki politics'* or *'wiki zimbabwe'* or *'wiki democracy'* or *'wiki corruption'*. \n"
+                    "\n"
                     "*>> Hi :* Main Menu"
                     "\n")
         msg.body(reply)
         responded = True
-
 
     if  incoming_msg == 'contacts':
         # return a cat pic
@@ -541,8 +537,6 @@ def bot():
                     "WhatsApp: +263 772 233872.\n"
                     "\n"
                     "info@mdcallianceparty.org.\n"
-
-
                      "\n"
                     "*>> Hi :* Main Menu"
                     "\n")
@@ -555,8 +549,7 @@ def bot():
         if r.status_code == 200:
             data = r.json()
             articles = data['articles'][:5]
-            result = ''
-            
+            result = ''    
             for article in articles:
                 title = article['title']
                 url = article['url']
@@ -578,7 +571,6 @@ def bot():
     published_at.minute, 
     published_at.second
     )
-
         else:
             result = 'I cannot fetch news at this time. Sorry!'
 
@@ -597,21 +589,17 @@ def bot():
         except:
             msg.body("Sorry can't find anything.\nTry another search..")
 
+    if incoming_msg == 'quotes':
+        r = requests.get('https://api.quotable.io/random?tags=politics|love|hapiness|science|life')
+        if r.status_code == 200:
+            data = r.json()
+            quote = f'{data["content"]} \n \n ~ {data["author"]}'
 
-    if incoming_msg == 'quote':
-            # returns a quote
-            r = requests.get('https://api.quotable.io/random?tags=politics|love|hapiness|science|life')
+        else:
+            quote = 'I could not retrieve a quote at this time, sorry.'
 
-            if r.status_code == 200:
-                data = r.json()
-                quote = f'{data["content"]} \n \n ~ {data["author"]}'
-
-            else:
-                quote = 'I could not retrieve a quote at this time, sorry.'
-
-            msg.body(quote)
-            responded = True
-
+        msg.body(quote)
+        responded = True
 
     if  incoming_msg == 'corruption':
         # return a cat pic
@@ -638,8 +626,6 @@ def bot():
         msg.body(reply)
         responded = True
 
-
-
     if  incoming_msg == 'webs':
         # def red():
         #     return render_template('officialmdc.html')
@@ -657,20 +643,17 @@ def bot():
                     </html>
                     """
 
-
         reply = index1()
 
         msg.body(index1())
         responded = True
-
 
     # if not responded:
     #      msg.body('I only know about famous quotes and cats, sorry!')
 
     return str(resp)
 
-
 if __name__ == '__main__':
     app.run(debug=True)
     port = int(os.environ.get('PORT', 5000))
-    # app.run()
+    # app.run()-
