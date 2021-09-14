@@ -4,7 +4,6 @@ from twilio.twiml.messaging_response import MessagingResponse
 from urllib.request import urlopen as myRequest
 import os
 import wikipediaapi
-import randfacts
 from datetime import datetime
 import datetime
 
@@ -180,8 +179,6 @@ def bot():
                     "*>> Mutare :* District Administrator’s Complex, 43 Tembwe Street, Mutare.\n"
                     "\n"
                     "*>> Mutasa :* DC Mutasa Messenger’s Camp, Stand No. 4894,Mutasa.\n"
-                    "\n"
-                    "*>> Nyanga :* District Administrator’s Complex, Nyanga.\n"
                     "\n"
                     "*>> Nyanga :* District Administrator’s Complex, Nyanga.\n"
                      "\n"
@@ -387,7 +384,6 @@ def bot():
                     "*1. On Election Day will the BVR machine be there to verify a voter's finger prints?* \n"
                     "\n"
                     "Answer: On polling day the BVR machine will not be there. The Commission will make use of a person’s identity document and the picture taken during voter registration. Polling Officers will not inspect a person’s finger prints.\n"
-                    "\n"
 					"\n"
                     "*2. May we be given a chance to cast our votes through postal voting since the majority of us will be posted elsewhere as polling officers?* \n"
                     "\n"
